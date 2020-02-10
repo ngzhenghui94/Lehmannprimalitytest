@@ -1,0 +1,26 @@
+to Compile:
+javac *.java
+to Run:
+java lehmanPrimalityTest [value to check]
+e.g Java lehmanPrimalityTest 10
+
+Some outputs:
+C:\Users\Zhenghui\Google Drive\eclipse-workspace\lehmanPrimalityTest\src>java lehmanPrimalityTest 10
+10 is Composite.
+Tested with: [5]
+
+C:\Users\Zhenghui\Google Drive\eclipse-workspace\lehmanPrimalityTest\src>java lehmanPrimalityTest 299
+299 is Composite.
+Tested with: [32, 112, 259, 183, 253]
+
+C:\Users\Zhenghui\Google Drive\eclipse-workspace\lehmanPrimalityTest\src>java lehmanPrimalityTest 13
+13 is Prime.
+Tested with: [6, 11, 8, 3, 12, 11, 6, 5, 11, 12, 5]
+
+C:\Users\Zhenghui\Google Drive\eclipse-workspace\lehmanPrimalityTest\src>java lehmanPrimalityTest 17
+17 is Prime.
+Tested with: [14, 9, 14, 14, 8, 4, 1, 3, 10, 12, 1]
+
+C:\Users\Zhenghui\Google Drive\eclipse-workspace\lehmanPrimalityTest\src>java lehmanPrimalityTest 16
+16 is Composite.
+Tested with: [10]
