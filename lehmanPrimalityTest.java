@@ -50,6 +50,8 @@ public class lehmanPrimalityTest {
             } else if((result % n) != 1 || (result & n) == result) {
                 rand = randomGenerator(n);
                 tries -= 1;
+            }else{
+                return true;
             }
             if(tries == 0){
                 return false; //If all tries pass, return false (p == Prime)
