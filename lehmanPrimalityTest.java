@@ -47,7 +47,7 @@ public class lehmanPrimalityTest {
             // check if gcd > 1 then is composite. return true (p != Prime)
             if (gcd(rand,n) > 1) {
                 return true;
-            } else if((result % n) != 1 || (result & n) == result) {
+            } else if((result % n) != 1 || (result % n) != -1 || (result % n) != n-1) {
                 rand = randomGenerator(n);
                 tries -= 1;
             }else{
